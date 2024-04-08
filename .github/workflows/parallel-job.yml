@@ -1,4 +1,4 @@
-name: First Test
+name: Parallel Job
 
 on:
   workflow_dispatch:
