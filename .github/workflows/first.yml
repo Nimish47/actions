@@ -1,0 +1,19 @@
+name: First Test
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  jobA:
+    runs-on: ubuntu-latest
+    steps:      
+      - name: Run a one-line script
+        run: echo Hello from Planet A
+  
+  jobB:
+    runs-on: ubuntu-latest
+    steps:    
+      - name: Run a multi-line script
+        run: |
+          echo Hello from Planet B
+          echo Hello from Planet C
